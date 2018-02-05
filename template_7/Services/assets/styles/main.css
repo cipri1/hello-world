@@ -47,10 +47,21 @@ table {
 	border-spacing: 0;
 }
 
+/*=========================
+        Clearfix
+ ==========================*/
+
+
+.container:after,
+.row:after  {
+     
+    content: "";
+	display: table;
+	clear: both;
+}
+
 /*==================================
-
-            My Styles Here
-
+         wMy Styles Here
 ===================================*/
 
 html {
@@ -82,8 +93,8 @@ body {
 
  	background: url("../images/bg-hero.jpg") no-repeat 50% 50%;
  	height: 433px;
- 	padding-top: 234px;
  	text-align: center;
+ 	vertical-align: top;
 }
 
 .hero h1 {
@@ -93,10 +104,11 @@ body {
 	font-size: 48px;
 	color: #fff;
 	font-weight: 900;
+	padding-top: 130px;
 	
 }
 
-.hero .title {
+.hero .primary-title {
 
 	height: 35px;
 
@@ -108,9 +120,7 @@ a {
 }
 
 /*==================================
-
-           Header
-
+             Header
 ===================================*/
 
 .logo {
@@ -184,17 +194,93 @@ a {
 	padding-top: 8px;
 }
 
-/*=========================
+/*==================================
+             Main Content
+===================================*/
 
-       Clearfix
+.title h2 {
 
-==========================*/
+	font-size: 32px;
+	font-weight: 800;
+	text-transform: uppercase;
 
 
-.container:after, {
-     
 
-	content: "";
-	display: table;
-	clear: both;
 }
+
+.title {
+
+	margin-top: 94px;
+	margin-bottom: 43px;
+}
+
+.row .block {
+
+	float: left;
+	border: 1px solid #e4ecee;
+	margin-left: 30px;
+	margin-bottom: 40px;
+
+
+}
+
+.row .block:first-child {
+
+	margin-left: 0;
+	
+}
+
+.tick {
+
+	list-style-image: url("../images/tick.png");
+}
+
+.row .image {
+
+	width: 552px;
+	height: 277px;
+}
+
+.row .block ul {
+
+	margin-left: 70px;
+}
+
+.row .block ul li {
+
+	line-height: 40px;
+	font-family: Domine, Georgia, Arial, serif;
+	font-size: 15px;
+	color: #838b8c;
+}
+
+.row .block .domain {
+
+	padding: 53px 0 37px 47px;
+	color: #343a3b;
+	font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.btn {
+    
+    text-transform: uppercase;
+    margin: 39px 0 66px 49px;
+	background: #16d428;
+	padding: 18px 34px;
+	border-radius: 30px;
+	width: 160px;
+
+}
+
+.btn a {
+
+	color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
