@@ -60,6 +60,12 @@ html {
 	        box-sizing: border-box;
 }
 
+body {
+
+	font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 14px;
+}
+
 .container {
 
 	width: 1140px;
@@ -76,4 +82,119 @@ html {
 
  	background: url("../images/bg-hero.jpg") no-repeat 50% 50%;
  	height: 433px;
+ 	padding-top: 234px;
+ 	text-align: center;
+}
+
+.hero h1 {
+
+    text-transform: uppercase;
+    font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 48px;
+	color: #fff;
+	font-weight: 900;
+	
+}
+
+.hero .title {
+
+	height: 35px;
+
+}
+
+a {
+
+	text-decoration: none;
+}
+
+/*==================================
+
+           Header
+
+===================================*/
+
+.logo {
+
+	float: left;
+	margin: 38px 20px 0 0;
+
+}
+
+.nav {
+
+	float: center;
+}
+
+.nav li {
+
+	float: left;
+}
+
+.nav a {
+
+    font-size: 14px;
+	display: block;
+	
+	color: #e2e2e2;
+	padding: 0 16.5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 55px;
+}
+
+.nav ul li:first-child a {
+
+	margin-left: 54px;
+}
+
+.nav a:hover {
+
+	color: #ffac55;
+}
+
+.contact-section {
+
+	float: right;
+	margin-top: 42px;
+	display: inline-block;
+}
+
+.contact-section div {
+
+	float: left;
+}
+
+.contact-section .phone-number {
+
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: .1em;
+	padding-top: 14px;
+}
+
+.contact-section .phone-img {
+
+	padding: 14px 14px 14px 12px;
+}
+
+.contact-section .mail-img {
+
+	padding-left: 22px;
+	padding-top: 8px;
+}
+
+/*=========================
+
+       Clearfix
+
+==========================*/
+
+
+.container:after, {
+     
+
+	content: "";
+	display: table;
+	clear: both;
 }
