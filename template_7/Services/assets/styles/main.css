@@ -264,6 +264,7 @@ a {
 	text-transform: uppercase;
 }
 
+
 .btn {
     
     text-transform: uppercase;
@@ -284,3 +285,97 @@ a {
 
 
 
+
+.btn:hover {
+
+    
+    opacity: .9;
+}
+
+
+/*==================================
+             Testimonials
+===================================*/
+
+.testimonials {
+
+	text-align: center;
+	background: #03b6e7;
+	height: 515px;
+	margin-top: 60px;
+	color: #fff;
+}
+
+.testimonials-header {
+
+	padding-top: 150px;
+	padding-bottom: 35px;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+
+
+}
+
+.content {
+
+    font-size: 15px;
+    font-family: Domine, Arial, Georgia, serif;
+    line-height: 28px;
+    font-weight: 400;
+	width: 935px;
+	margin-left: 122px;
+	margin-top: 24px;
+	color: #ddf8ff;
+}
+
+.line {
+
+	margin-bottom: 20px;
+	margin-top: 16px;
+}
+
+.info {
+
+	line-height: 21px;
+	position: relative;
+}
+
+.info h3 {
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.info p {
+
+	font-family: Domine, Arial, Georgia, serif;
+    color: #ddf8ff;
+    font-size: 15px;
+
+}
+
+.quote1 img {
+
+	position: absolute;
+	left: -50px;
+
+}
+
+.info img {
+
+	position: absolute;
+	right: 30px;
+	bottom: 70px;
+
+ 
+}
+
+.testimonials-header img {
+
+	position: absolute;
+	bottom: 86px;
+	left: 1px;
+}
