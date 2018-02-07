@@ -196,301 +196,79 @@ a {
 }
 
 /*================================
-     Main Content
-==================================*/
+         Connect us
+=================================*/
 
+.contact-us {
 
-/*Left-Side*/
-
-.main {
-    
-    margin-top: 95px;
-	height: 800px;
+	height: 508px;
 }
 
-.main-content {
+.address-map {
 
-	margin-top: 20px;
+    float: right;
+	height: 319px;
+	width: 749px;
 }
 
-.main-content p {
-
-	font-size: 15px;
-	font-family: Domine, Arial, Georgia, serif;
-	line-height: 28px;
-	color: #838b8c;
-}
-
-.left-side-content {
+.contact-details {
 
 	float: left;
-	width: 55%;
+	width: 380px;
 }
 
-.article .heading {
+.contact-details h2 {
 
-	margin-top: 96px;
-}
-
-.article:first-child .heading {
-
-	margin-top: 0;
-}
-
-.article .heading h2 {
-
-
-    font-size: 32px;
-	font-weight: 800;
-	text-transform: uppercase;
-
-}
-
-/*Right Side*/
-
-.right-side-content {
-
-	float:right;
-	width: 40%;
-}
-
-.consultation {
-
-	margin-top: 30px;
-	background: #03b6e7;
-	height: 340px;
-}
-
-.consultation-heading {
-
-	font-size: 24px;
-	font-weight: 800;
-	color: #fff;
-	text-transform: uppercase;
-}
-
-.form-content {
-
-	padding: 47px 33px 40px 37px;
-	text-transform: uppercase;
-	font-size: 13px;
-	font-weight: 600;
-	color: #c1eefc;
-	border: none;
-}
-
-.name {
-
-	float: left;
-}
-
-.name,
-.email {
-
-	padding-top: 34px;
-}
-
-.name .name-input,
-.email .email-input {
-
-	padding-top: 10px;
-}
-
-.name .name-input input,
-.email .email-input input  {
-    
-    color: #c1eefc;
-    background: #03b6e7;
-	border: none;
-	border-top: 1px solid #c1eefc;
-	width: 180px;
-}
-
-.email {
-    
-    
-	float: right;
-}
-
-.comment {
-
-	clear: both;
-	padding-top: 10px;
-}
-
-.comment .comment-textarea {
-
-	padding-top: 5px;
-}
-
-.comment .comment-textarea textarea {
-
-    color: #c1eefc;
-    background: #03b6e7;
-    border: none;
-    border-bottom: 1px solid #c1eefc;
-	max-width: 388px;
-	min-width: 388px;
-	max-height: 66px;
-	min-height: 66px;
-}
-
-.btn {
-
-    text-transform: uppercase;
-	font-size: 13px;
-	font-weight: 600;
-	color: #fff;
-	background: #16d428;
-	border: none;
-	border-radius: 50px;
-	width: 143px;
-	height: 44px;
-	cursor: pointer;
-	margin-top: 20px;
-	
-}
-
-/*=================================
-         3 Points
-===================================*/
-
-.points {
-
-	background: #e7eff1;
-	height: 642px;
-}
-
-.block {
- 
-	float: left;
-	width: 358px;
-	height: 454px;
-	text-align: center;
-	background: #fff;
-	margin-top: 95px;
-
-}
-
-.block:nth-of-type(1) {
-
-	margin-right: 34px;
-}
-
-.block:nth-of-type(3) {
-
-	margin-left: 32px;
-}
-
-.block .image img {
-
-	width: 358px;
-	height: 173px;
-}
-
-.block .text {
-
-	width: 300px;
-	margin: 38px auto 0 auto;
-}
-
-.block .text h3 {
-
-	font-size: 24px;
-	font-weight: 600;
-	text-transform: uppercase;
-
-}
-
-.block .text p {
-
-	font-size: 15px;
-	font-family: Domine, Arial, Georgia, serif;
-	color: #838b8c;
-	line-height: 28px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-/*==================================
-             Testimonials
-===================================*/
-
-.testimonials {
-
-	text-align: center;
-	background: #03b6e7;
-	height: 515px;
-	color: #fff;
-}
-
-.testimonials-header {
-
-	padding-top: 90px;
-	padding-bottom: 35px;
 	font-size: 32px;
+	font-weight: 600;
 	text-transform: uppercase;
-	font-weight: bold;
+	margin-bottom: 49px;
+}
+
+.all-contact-content {
+
+	margin: 95px 0;
+}
+
+.contact-list  {
+
+	margin-left: 35px;
 	position: relative;
-
-
 }
 
-.content {
-
-    font-size: 15px;
-    font-family: Domine, Arial, Georgia, serif;
-    line-height: 28px;
-    font-weight: 400;
-	width: 935px;
-	margin-left: 122px;
-	margin-top: 24px;
-	color: #ddf8ff;
-}
-
-.line {
-
-	margin-bottom: 20px;
-	margin-top: 16px;
-}
-
-.info {
-
-	line-height: 25px;
-	position: relative;
-
-}
-
-.info h3 {
+.contact-list li h3 {
 
 	text-transform: uppercase;
 	font-size: 14px;
+	color: #343a3b;
+	line-height: 21px;
 	font-weight: bold;
-}
-
-.info p {
-
-	font-family: Domine, Arial, Georgia, serif;
-    color: #ddf8ff;
-    font-size: 15px;
 
 }
 
-.info img {
+.contact-list li p {
+
+	font-family: Domine, Georgia, Arial, serif;
+	line-height: 28px;
+	color: #8d9495;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.contact-list img {
 
 	position: absolute;
-	right: 30px;
-	bottom: 70px;
-
- 
+	top: 2px;
+	left: -40px;
 }
 
-.testimonials-header img {
 
-	position: absolute;
-	bottom: 26px;
-	left: 1px;
-}
+
+
+
+
+
+
 
 
 /*==================================
