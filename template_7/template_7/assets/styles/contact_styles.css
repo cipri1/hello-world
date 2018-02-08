@@ -262,9 +262,120 @@ a {
 	left: -40px;
 }
 
+/*=================================
+           Write to us
+==================================*/
+
+.write-to-us {
+
+	text-align: center;
+	height: 669px;
+	background: #e7eff1;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.write-to-us h2 {
+
+	font-size: 32px;
+	font-weight: 600;
+	color: #343a3b;
+	padding-top: 92px;
+	padding-bottom: 52px;
+}
+
+.text-area {
+    
+
+    color: #343a3b;
+	border-bottom: 1px solid #cddbde;
+	width: 555px;
+	height: 20px;
+	margin-top: 42px;
+}
+
+.text-area label {
+
+	float: left;
+	margin-top: 2px;
+	padding-right: 10px;
+
+}
+
+.text-area input {
+
+	float: left;
+	width: 490px;
+	border: none;
+	background: #e7eff1;
 
 
+}
 
+.text-area select {
+
+	width: 470px;
+	border: none;
+	float: right;
+	background: #e7eff1;
+}
+
+.right {
+
+	float: right;
+}
+
+.left {
+
+	float: left;
+}
+
+.text-box {
+    
+	width: 1140px;
+	height: 185px;
+	clear: both;
+    padding-top: 40px;
+	
+}
+
+.text-box label{
+
+	float: left;
+	color: #343a3b;	
+}
+
+.text-box textarea {
+    
+	float: left;
+	min-width: 1130px;
+	max-width: 1130px;
+	min-height: 160px;
+	max-height: 160px;
+	background: #e7eff1;
+	border: none;
+	margin: 0 auto;
+	border-bottom: 1px solid #cddbde;
+	margin-top: 7px;
+
+	
+}
+
+.btn {
+
+    text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	background: #16d428;
+	border: none;
+	border-radius: 50px;
+	width: 143px;
+	height: 44px;
+	cursor: pointer;
+	margin-top: 30px;
+	
+}
 
 
 
