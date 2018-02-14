@@ -782,20 +782,21 @@ a {
 	margin-left: 0;
 }
 
-.contact-section img {
+.contact-text img {
 
 	float: left;
 	padding-right:40px;
 	padding-left: 34px;
 }
 
-.contact-section {
+.contact-text {
 
 	width: 100%;
 	height: 100%;
+	margin-top: 40px;
 }
 
-.contact-section h3 {
+.contact-text h3 {
 
 	text-transform: uppercase;
 	font: 700 18px Montserrat, Georgia, Arial, serif;
@@ -804,7 +805,7 @@ a {
 	
 }
 
-.contact-section p {
+.contact-text p {
 
 	font: 400 18px Domine, Georgia, Arial, serif;
 	color: #343a3b;
