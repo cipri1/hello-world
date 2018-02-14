@@ -1,0 +1,1074 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=========================
+        Clearfix
+ ==========================*/
+
+
+.container:after,
+.row:after  {
+     
+    content: "";
+	display: table;
+	clear: both;
+}
+
+/*==================================
+         My Styles Here
+===================================*/
+
+html {
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+
+	font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 14px;
+}
+
+.container {
+
+	width: 1140px;
+	margin: 0 auto;
+}
+
+*,*:before,*:after {
+
+	box-sizing: inherit;
+
+}
+
+/*==================================
+             Header
+===================================*/
+
+.hero {
+
+ 	background: url("../images/banner.jpg") no-repeat 50% 50%;
+ 	height: 841px;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	width: 100%;
+}
+
+.hero .primary-title {
+
+	height: 35px;
+	margin-top: 150px;
+
+}
+
+.hero .primary-title h1 {
+
+	text-transform: uppercase;
+    font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 48px;
+	color: #fff;
+	font-weight: 600;
+	padding-top: 10px;
+	
+	
+}
+
+.hero .primary-title p {
+
+	text-transform: uppercase;
+    font-family: Montserrat, Georgia, Arial, serif;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 600;
+	
+	
+}
+
+a {
+
+	text-decoration: none;
+}
+
+
+.logo {
+
+	float: left;
+	margin: 38px 20px 0 0;
+
+}
+
+.nav {
+
+	float: center;
+}
+
+.nav li {
+
+	float: left;
+}
+
+.nav a {
+
+    font-size: 14px;
+	display: block;
+	
+	color: #e2e2e2;
+	padding: 0 16.5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 55px;
+}
+
+.nav ul li:first-child a {
+
+	margin-left: 54px;
+}
+
+.nav a:hover {
+
+	color: #ffac55;
+}
+
+.contact-section {
+
+	float: right;
+	margin-top: 42px;
+	display: inline-block;
+}
+
+.contact-section div {
+
+	float: left;
+}
+
+.contact-section .phone-number {
+
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: .1em;
+	padding-top: 14px;
+}
+
+.contact-section .phone-img {
+
+	padding: 14px 14px 14px 12px;
+}
+
+.contact-section .mail-img {
+
+	padding-left: 22px;
+	padding-top: 8px;
+}
+
+
+/*==================================
+             Industary
+===================================*/
+
+.carousel-images {
+
+	margin-top: 95px;
+}
+
+.industary {
+
+	float: left;
+	width: 262px;
+	height: 282px;
+	background: #03b6e7;
+	border: none;
+	margin-left: 30px;
+	
+}
+
+.industary h2 {
+
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	padding-top: 20px
+}
+
+.industary div {
+
+	margin-top: 82px;
+}
+
+.industary:first-child {
+
+	margin-left: 0;
+}
+
+.industary:hover {
+
+	background: #f6961b;
+}
+
+#carousel-circles {
+
+	margin-top: 100px;
+}
+
+/*==================================
+             About-us
+===================================*/
+
+.about-us {
+
+	height: 558px;
+	text-align: center;
+}
+
+.about-us-content {
+
+	width: 680px;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+
+.about-us-content h2 {
+
+	text-transform: uppercase;
+	font: 700 32px Montserrat, Georgia, Arial, serif;
+	color: #343a3b;
+	padding-bottom: 35px;
+}
+
+.about-us-content p {
+
+	font: 400 15px Domine, Georgia, Arial, serif;
+	line-height: 28px;
+	color: #838b8c;
+}
+
+.btn {
+
+    text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	background: #16d428;
+	border: none;
+	border-radius: 50px;
+	width: 143px;
+	height: 44px;
+	cursor: pointer;
+	margin-top: 30px;
+	
+}
+
+.btn a {
+
+	color: #fff;
+}
+
+.logos-slider {
+
+	border-top: 1px solid #e7eff1;
+	margin-top: 68px;
+	padding-top: 58px;
+}
+
+.logos-slider img {
+
+	padding: 0 20px;
+	height: ;
+}
+
+#arrow {
+
+	float: left;
+	padding-top: 2px;
+}
+
+#arrow_active {
+
+	float: right;
+}
+
+/*==================================
+            Our Features
+===================================*/
+
+.row {
+
+	width: 100%;
+}
+
+.our-features {
+    
+    width: 100%;
+	height: 586px;
+	background: #e7eff1;
+}
+
+.our-features .container {
+
+	position: relative;
+}
+
+.our-features h2 {
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 700;
+	color: #343a3b;
+	padding-top: 90px;
+	padding-bottom: 70px;
+	
+
+
+}
+
+.feature {
+
+	width: 500px;
+	margin-bottom: 70px;
+}
+
+.feature:nth-child(even) {
+
+	margin-bottom: 0px;
+}
+
+.feature .feature-content h3 {
+
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	color: #343a3b;
+	padding-bottom: 10px;
+}
+
+.feature .feature-content p {
+
+	font-size: 15px;
+	font-weight: 400;
+	color: #9aa2a3;
+	font-family: Domine, Georgia, Arial, serif;
+	line-height: 28px;
+}
+
+.left {
+
+	float: left;
+	text-align: right;
+}
+
+.left .feature-content {
+
+	float: left;
+	width: 390px;
+	padding-right: 5px;
+}
+
+.left .feature-image img {
+
+	float: left;
+	padding-left: 30px;
+}
+
+.right {
+
+	float: right;
+
+}
+
+.right .feature-content {
+
+	float: left;
+	width: 390px;
+	margin-left: 30px;
+}
+
+.right .feature-image img {
+
+	float: left;
+	padding-left: 45px;
+}
+
+#features-logo-center {
+
+	position: absolute;
+	top: 170px;
+	left: 450px;
+}
+
+.business-boosting {
+
+	width: 100%;
+	height: 77px;
+	background: #565d5d;
+	margin-top: 11px;
+}
+
+.business-boosting p {
+
+	font: 20px Domine, Georgia, Arial, serif;
+	color: #fff;
+	width: 430px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 36px;
+}
+
+.btn-boost {
+
+    text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	background: #16d428;
+	border: none;
+	border-radius: 50px;
+	width: 223px;
+	height: 44px;
+	cursor: pointer;
+	float: right;
+	margin-top: 17px;
+	margin-right: 25px;
+	
+}
+
+/*==================================
+             Projects
+===================================*/
+
+.projects {
+
+	height: 750px;
+}
+
+.projects h2 {
+
+	text-align: center;
+	font: 700 32px Montserrat, Georgia, Arial, serif;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.project1 {
+
+	width: 358px;
+	height: 464px;
+	float: left;
+	position: relative;
+}
+
+.project2 {
+
+	width: 749px;
+	height: 464px;
+	float: right;
+	position: relative;
+}
+
+.project-box {
+
+	border: 1px solid #dae5e8;
+	border-top: none;
+}
+
+.project1 button,
+.project2 button {
+
+	position: absolute;
+	background: none;
+	top: -10px;
+	left: 19px;
+	border: 2px solid #ffac56;
+}
+
+.btn-b {
+
+	width: 110px;
+	height: 33px;
+}
+
+#carousel-project2 {
+
+	position: absolute;
+	right: 0;
+	top: 256px;
+	right: 27px;
+}
+
+.project-content h3 {
+
+	text-transform: uppercase;
+	font: 700 18px Montserrat, Georgia, Arial, serif;
+	color: #343a3b;
+	padding-bottom: 15px;
+}
+
+.project-content p {
+
+	font: 15px Domine, Georgia, Arial, serif;
+	line-height: 26px;
+	color: #838b8c;
+}
+
+.project-content {
+
+	padding-top: 35px;
+	padding-bottom: 55px;
+	padding-left: 29px;
+}
+
+.project2 .project-box .project-content p {
+
+ 	width: 615px;
+ }
+
+.project-box:hover {
+
+ 	border: none;
+ 	background: #f6961b;
+
+ }
+
+.project-content:hover p {
+
+ 	color: #fff;
+ }
+
+.project-content:hover h3 {
+
+ 	color: #fff;
+ }
+
+.btn-full {
+
+    clear: both;
+    text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	background: #16d428;
+	border: none;
+	border-radius: 50px;
+	width: 163px;
+	height: 44px;
+	cursor: pointer;
+	margin-top: 70px;
+	margin-left: 489px;
+	
+}
+
+/*==================================
+             Services
+===================================*/
+
+.services {
+
+    width: 100%;
+	height: 539px;
+	background: #fffaf3;
+}
+
+.services h2 {
+
+	text-align: center;
+	font: 700 32px Montserrat, Georgia, Arial, serif;
+	text-transform: uppercase;
+	padding-top: 95px;
+	margin-bottom: 56px;
+	color: #343a3b;
+}
+
+.serv-img {
+    
+    margin-top: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.block {
+
+	float: left;
+	width: 330px;
+	height: 180px;
+	margin-left: 65px;
+}
+
+.block:nth-of-type(1) {
+
+	margin-left: 0;
+}
+
+
+.block h3 {
+
+	text-transform: uppercase;
+	font: 700 18px Montserrat, Georgia, Arial, serif;
+	color: #343a3b;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.block p {
+
+	font: 15px Domine, Georgia, Arial, serif;
+	line-height: 26px;
+	color: #838b8c;
+
+}
+
+/*==================================
+             Blog
+===================================*/
+
+.blog {
+
+	width: 100%;
+	height: 654px;
+	background: #e7eff1;
+}
+
+.blog h2 {
+
+    color: #343a3b;
+	text-align: center;
+	font: 700 32px Montserrat, Georgia, Arial, serif;
+	text-transform: uppercase;
+	padding-top: 95px;
+	margin-bottom: 56px;
+}
+
+.blog1 {
+
+	float: left;
+	width: 570px;
+	height: 295px;
+	border-top: 3px solid #16d428;
+	background: #fff;
+}
+
+.blog2 {
+    
+    float: left;
+	width: 555px;
+	height: 295px;
+	border-top: 3px solid #ffac56;
+	background: linear-gradient(to right, #e7eff1 0.2%, #fff 10%);
+}
+
+.image-blog1 {
+
+	float: left;
+}
+
+.blog1-content {
+
+	width: 356px;
+	float: right;
+	padding: 40px 30px 0 40px;
+	
+}
+
+.blog2-content {
+
+	padding: 40px 30px 0 40px;
+}
+
+.date {
+
+	font: 15px Domine, Georgia, Arial, serif;
+	color: #343a3b;
+}
+
+.header-blog {
+
+	text-transform: uppercase;
+	font: 700 18px Montserrat, Georgia, Arial, serif;
+	color: #343a3b;
+	padding-top: 8px;
+	padding-bottom: 25px;
+
+}
+
+.text-blog {
+
+	font: 15px Domine, Georgia, Arial, serif;
+	line-height: 26px;
+	color: #838b8c;
+}
+
+/*==================================
+            Contact
+===================================*/
+
+.contact {
+
+	width: 100%;
+	height: 380px;
+}
+
+.contact h2 {
+
+	color: #343a3b;
+	text-align: center;
+	font: 700 32px Montserrat, Georgia, Arial, serif;
+	text-transform: uppercase;
+	padding-top: 95px;
+	margin-bottom: 25px;
+}
+
+
+.contact-block {
+
+	float: left;
+	border: 1px solid #e1eaec;
+	width: 358px;
+	height: 128px;
+	text-align: left;
+	margin-left: 32px;
+}
+
+.contact-block:nth-of-type(1) {
+
+	margin-left: 0;
+}
+
+.contact-section img {
+
+	float: left;
+	padding-right:40px;
+	padding-left: 34px;
+}
+
+.contact-section {
+
+	width: 100%;
+	height: 100%;
+}
+
+.contact-section h3 {
+
+	text-transform: uppercase;
+	font: 700 18px Montserrat, Georgia, Arial, serif;
+	color: #343a3b;
+	margin-bottom: 2px;
+	
+}
+
+.contact-section p {
+
+	font: 400 18px Domine, Georgia, Arial, serif;
+	color: #343a3b;
+}
+
+/*==================================
+             Testimonials
+===================================*/
+
+.testimonials {
+
+	text-align: center;
+	background: #03b6e7;
+	height: 515px;
+	width: 100%;
+	color: #fff;
+}
+
+.testimonials-header {
+
+	padding-top: 90px;
+	padding-bottom: 35px;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+
+
+}
+
+.content {
+
+    font-size: 15px;
+    font-family: Domine, Arial, Georgia, serif;
+    line-height: 28px;
+    font-weight: 400;
+	width: 935px;
+	margin-left: 122px;
+	margin-top: 24px;
+	color: #ddf8ff;
+}
+
+.line {
+
+	margin-bottom: 20px;
+	margin-top: 16px;
+}
+
+.info {
+
+	line-height: 25px;
+	position: relative;
+
+}
+
+.info h3 {
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.info p {
+
+	font-family: Domine, Arial, Georgia, serif;
+    color: #ddf8ff;
+    font-size: 15px;
+
+}
+
+.info img {
+
+	position: absolute;
+	right: 30px;
+	bottom: 70px;
+
+ 
+}
+
+.testimonials-header img {
+
+	position: absolute;
+	bottom: 26px;
+	left: 0;
+}
+
+
+/*==================================
+             Footer
+===================================*/
+
+.footer {
+    
+    width: 100%;
+	height: 524px;
+	background: #262829;
+}
+
+
+.footer .container img {
+
+
+	margin-top: 190px;
+	float: left;
+	
+}
+
+.footer-content {
+    
+    
+	float: right;
+	padding-right: 17px;
+	margin-bottom: 95px;
+}
+
+.column {
+    
+    margin-top: 40px;
+    padding-top: 50px;
+	float: left;
+	margin-left: 68px;
+	
+}
+
+.column .title {
+
+    text-transform: uppercase;
+	font-size: 20px;
+	color: #e1e1e1;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.column ul a {
+
+    text-transform: uppercase;
+	font-size: 13px;
+	line-height: 30px;
+	color: #6f7677;
+	font-weight: 600;
+}
+
+.column ul a:hover {
+
+	color: #ffac55;
+}
+
+.column:nth-of-type(1) {
+
+	margin-left: 0; 	
+} 
+
+
+.column:nth-of-type(3) {
+
+	width: 350px;
+
+}
+
+.column p {
+ 
+       
+	color: #6f7677;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 500;
+	padding-top: 5px;
+}
+
+.newsletter {
+
+	margin-top: 42px;
+	position: relative;
+}
+
+.newsletter input {
+
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #545454;
+	padding: 20px 150px 20px 35px;
+	background: #323334;
+	border: 1px solid #323334;
+	border-radius: 50px;
+}
+
+.btn-email {
+
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	padding: 20px 25px;
+	position: absolute;
+	left: 220px; 
+	bottom: -1px;
+	background: #16d428;
+	border: 1px solid #16d428;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.footer-section {
+
+	clear: both;
+	border-top: 2px solid #323334;
+	padding-top: 20px;
+	padding-bottom: 45px;
+
+}
+
+.copyright {
+
+	float: left;
+	font-family: Domine, Georgia, Arial, serif;
+	font-size: 15px;
+	color: #747b7c;
+}
+
+.soc {
+
+	float: right;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.soc ul li {
+
+	float: left;
+	padding-left: 40px;
+}
+
+.soc ul li:first-child a {
+
+	color: #385da5;
+}
+
+.soc ul li:nth-child(2) a {
+
+	color: #0998b6;
+}
+
+.soc ul li:nth-child(3) a {
+
+	color: #d4c5a8;
+}
+
+.soc ul li:nth-child(4) a {
+
+	color: #1c6f9d;
+}
+
+.soc ul li:last-child a {
+
+	color: #e4463b;
+}
+
+.soc ul li:first-child a:hover,
+.soc ul li:nth-child(2) a:hover,
+.soc ul li:nth-child(3) a:hover,
+.soc ul li:nth-child(4) a:hover,
+.soc ul li:last-child a:hover {
+
+	opacity: .9;
+}
